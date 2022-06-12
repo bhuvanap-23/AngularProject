@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <a class="navbar-brand" routerLink="/bookstore" style="color:white">Book Store</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink = "/books-list" style="color:white">Show Books</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink = "/add-book" style="color:white">Add Book</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/about" style="color:white">About</a>
+        </li>
+      </ul>
+      <span class="navbar-text text-bold">
+        Developed by Bhuvana
+      </span>
+    </div>
+  </nav>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Angular 12 BookStore</h1>
+      <p class="lead">using MEAN Stack</p>
+    </div>
+  </div>
+
+<router-outlet></router-outlet>
